@@ -1,0 +1,48 @@
+Initialize engine version: 5.6.3p1 (9c92e827232b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   24.21.13.9836
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Unity\Automation Inc\Automation Inc\Export_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Unity\Automation Inc\Automation Inc\Export_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Unity\Automation Inc\Automation Inc\Export_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Unity\Automation Inc\Automation Inc\Export_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Unity\Automation Inc\Automation Inc\Export_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Unity\Automation Inc\Automation Inc\Export_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Unity\Automation Inc\Automation Inc\Export_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Unity\Automation Inc\Automation Inc\Export_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.139 seconds
+Platform assembly: C:\Unity\Automation Inc\Automation Inc\Export_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Unity\Automation Inc\Automation Inc\Export_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.973826 ms
+File read complete.
+line 0: turnRight();
+line 1: moveForward();
+line 2: moveForward();
+line 3: moveForward();
+line 4: turnLeft();
+line 5: moveForward();
+line 6: moveForward();
+line 7: moveForward();
+line 8: moveForward();
+line 9: pickUp();
+line 10: moveForward();
+line 11: turnLeft();
+line 12: moveForward();
+line 13: turnRight();
+line 14: moveForward();
+line 15: turnRight();
+line 16: putDown();
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 24f8 -> priority: 1 
+  Thread -> id: 948 -> priority: 1 
+  Thread -> id: 382c -> priority: 1 
+  Thread -> id: 26f4 -> priority: 1 

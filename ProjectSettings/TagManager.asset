@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tile
+  - package
+  - robot
+  - sensor
+  - shoot
+  - conveyor
+  - exit
+  - redExit
+  - yellowExit
+  - lineButton
+  - endLevelBox
+  - canvas
+  - interpreter
+  - backout
+  - pinkExit
+  - music
+  - orangeExit
+  - greenExit
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - background_far
+  - background_medium
+  - background_close
+  - ground
+  - low
+  - medium
+  - characters
+  - foreground_far
+  - foreground_medium
+  - forground_close
+  - UI1
+  - UI2
+  - UI3
+  - UI4
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3258720663
+    locked: 0

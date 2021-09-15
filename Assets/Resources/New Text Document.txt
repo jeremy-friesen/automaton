@@ -1,0 +1,45 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MusicSystem : MonoBehaviour{
+    private AudioSource audioSource;
+
+    private String[] audioClipPaths = new String[2];
+    private int currentAudioClipNum;
+
+    // Start is called before the first frame update
+    void Start(){
+        // GameObject setup
+        if(GameObject.Find("Music") != this.gameObject)
+            Destroy(this.gameObject);
+        DontDestroyOnLoad(this.gameObject);
+
+        // Load each audioclip
+        audioClipPaths[0] = Resources.Load("Music/OneMinuteBuildUp.mp3") as AudioClip;
+        audioClipPaths[1] = Resources.Load("Music/Summer.mp3") as AudioClip;
+
+        // audioSource reference setup
+        audioSource = GetComponent<AudioSource>();
+
+        // Set audio clip for audio source
+        nextTrack();
+    }
+
+    // Update is called once per frame
+    void Update(){
+        if(!audioSource.isPlaying){
+            nextTrack();
+        }
+    }
+
+    // jump to next track
+    void nextTrack(){
+        currentAudioClipNum++;
+        if(currentAudioClipNum >= audioClips.Length){
+            currentAudioClipNum = 0;
+        }
+        audioSource.clip = Resources.Load(audioClipPaths[currentAudioClipNum]) as AudioClip;
+        audioSource.Play();
+    }
+}

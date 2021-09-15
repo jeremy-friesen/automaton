@@ -1,0 +1,37 @@
+func1(){
+  turnRight();
+  moveForward();
+}
+
+func2(){
+  turnLeft();
+  moveForward();
+}
+
+//this for loop stops after one loop
+//because, loops is a single int, not an array
+//thus, the for(2) overwrites the for(3) and loops is 0 after for(2)
+//IDEA:
+// 2 arrays, 1 boolean, isFunction or isFor, 1 int
+// if its a for, it's the number of loops left in that for
+// if its a function, it's the return line
+// Maybe do 3 arrays, 1 boolean, 1 lineNumbers(of for loops and return line), 1 loops, if applicable
+for(3){
+  turnRight();
+  for(2){
+    moveForward();
+  }
+  turnLeft();
+}
+
+//moveDiagonally(){
+//  for(3){
+//    func1();
+//    func2();
+//  }
+//}
+
+//After moveDiagonally executes, it continues line-by-line, instead of jumping
+//to the line after the call
+
+//moveDiagonally();
