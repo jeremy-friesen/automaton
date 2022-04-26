@@ -31,15 +31,16 @@ public class MusicSystem : MonoBehaviour{
 
     // read data for settings:
     PlayerData data = SaveSystem.Load();
+    updateVolume(data.MusicVolume);
     if(data.Music){
-      //Debug.Log("data.Music is true");
+      Debug.Log("data.Music is true");
       // Set audio clip for audio source
       nextTrack();
       play();
     } else{
+      Debug.Log("data.Music is false");
       pause();
     }
-    updateVolume(data.MusicVolume);
   }
 
   // Update is called once per frame

@@ -137,7 +137,7 @@ public class PlayerData{
 		this.lastLevel = lastLevel;
 		this.maxLevel = maxLevel;
 		this.touchPanZoom = false;
-		this.music = true;
+		this.music = false;
 		this.musicVolume = 1f;
 		//this.musicTrack = 1;
 		this.targetFPS = 60;

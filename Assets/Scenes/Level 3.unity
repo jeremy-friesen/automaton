@@ -7781,8 +7781,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 964537733}
   m_HandleRect: {fileID: 1831385810}
   m_Direction: 2
-  m_Value: 0.9400002
-  m_Size: 0.585486
+  m_Value: 0.94
+  m_Size: 0.58548594
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -13975,8 +13975,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1684829070}
   m_HandleRect: {fileID: 828415270}
   m_Direction: 2
-  m_Value: 0.940001
-  m_Size: 0.9143561
+  m_Value: 0.94000137
+  m_Size: 0.9143562
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -15716,7 +15716,7 @@ Camera:
   far clip plane: 1000
   field of view: 168
   orthographic: 1
-  orthographic size: 100
+  orthographic size: 120
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -15740,7 +15740,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902899984}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 98.54, y: -0.56, z: -10}
+  m_LocalPosition: {x: 117.19, y: 14, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1184751428}
