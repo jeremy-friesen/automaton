@@ -2463,7 +2463,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 309289387}
   m_HandleRect: {fileID: 74480255}
   m_Direction: 2
-  m_Value: 0.94
+  m_Value: 0.9400001
   m_Size: 0.585486
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -6941,7 +6941,7 @@ Camera:
   far clip plane: 1000
   field of view: 168
   orthographic: 1
-  orthographic size: 100
+  orthographic size: 120
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -6965,7 +6965,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921698703}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 98.27, y: -9.6, z: -10}
+  m_LocalPosition: {x: 117.7, y: -9.6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 470741613}

@@ -12035,7 +12035,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144476812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 135, y: -7.1, z: -10}
+  m_LocalPosition: {x: 144.7, y: -7.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 839305059}
@@ -14665,7 +14665,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1054801658}
   m_HandleRect: {fileID: 1055904390}
   m_Direction: 2
-  m_Value: 0.94000024
+  m_Value: 0.94000006
   m_Size: 0.6592647
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -26405,7 +26405,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1832758730}
   m_HandleRect: {fileID: 1441910145}
   m_Direction: 2
-  m_Value: 0.9400001
+  m_Value: 0.94
   m_Size: 0.58548594
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -29954,7 +29954,7 @@ Camera:
   far clip plane: 1000
   field of view: 168
   orthographic: 1
-  orthographic size: 140
+  orthographic size: 150
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
