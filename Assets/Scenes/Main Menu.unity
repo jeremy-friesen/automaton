@@ -2891,7 +2891,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 535.5, y: -25.000061}
+  m_AnchoredPosition: {x: 535.5, y: -25}
   m_SizeDelta: {x: 0, y: 26.131958}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &502591957
@@ -2937,8 +2937,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 502591958}
   m_HandleRect: {fileID: 1897511784}
   m_Direction: 2
-  m_Value: 0.94000006
-  m_Size: 0.5733241
+  m_Value: 0.9399999
+  m_Size: 0.5184514
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3707,7 +3707,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -153.2, y: 855.624}
+  m_AnchoredPosition: {x: -153.2, y: 773.7326}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.35, y: 0.94}
 --- !u!114 &622902364
@@ -5593,7 +5593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fa9694438ce9a64fa1215fb67014c01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placementId: video
 --- !u!114 &937529377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7507,7 +7506,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: v1.12
+  m_Text: v1.13
 --- !u!222 &1254738613
 CanvasRenderer:
   m_ObjectHideFlags: 0
