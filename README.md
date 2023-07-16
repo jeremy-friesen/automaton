@@ -10,7 +10,7 @@
 
 ## Info
 
-The current Unity version for the project is 2019.2.21f1
+The current Unity version for the project is 2020.3.32f1
 
 This source code does not contain advertisements or in-app purchases that are in the official version. (Ads/IAPs may be removed in a future version)
 
